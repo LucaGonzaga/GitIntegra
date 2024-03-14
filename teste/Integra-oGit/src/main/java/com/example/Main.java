@@ -19,7 +19,7 @@ public class Main {
         System.out.println(result);
         try {
             Connection connection = DriverManager.getConnection("jdbc:postgresql://localhost:5432/TI2 Database",
-                    "postgres", "luca123");
+                    "postgres", "Luca123");
 
             if (connection != null) {
                 System.out.println("Banco de dados conectado com sucesso");
@@ -42,6 +42,6 @@ public class Main {
             ResultSet result = stm.executeQuery(sql);
         } catch(SQLException){
             e.printStackTrace();
-        } q
+        } 
     }
 }
