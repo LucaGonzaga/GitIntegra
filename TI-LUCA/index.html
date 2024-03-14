@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre a empresa</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com%22%3E/
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&family=Secular+One&display=swap" rel="stylesheet">
+    <script src="/assets/Js/db.json"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <header>
+        <img src="logo-stockify.jpeg" alt="Logotipo">
+        <h1 class="header-title">Sobre nós</h1>
+    </header>
+
+    <div id="paginação">
+        <button id="anterior">Página Anterior</button>
+        <button id="próxima">Próxima Página</button>
+    </div>
+
+    <main>
+
+        <head>
+            <title>Página Sobre Nós</title>
+            <style>
+              /* Estilos para a div */
+              .sobre-nos {
+                width: 80%;
+                margin: 20px auto;
+                padding: 20px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                text-align: justify;
+              }
+            </style>
+          </head>
+          <body>
+          
+          <div class="sobre-nos">
+            <h2>Quem Somos Nós</h2>
+            <p>Somos uma equipe apaixonada por compartilhar conhecimento e ajudar pessoas a aprender e crescer. Nosso objetivo é ajudar cada estabelecimento a conseguir fazer uma excelente gestão de estoque, através do nosso sistema.</p>
+            <p>Estamos comprometidos em criar um ambiente inclusivo e colaborativo para todos os que desejam dar um upgrade em suas casas para que possam ter um melhor controle em seus estoques e até mesmo financeiro.</p>
+            <p>Abaixo mostramos um exemplo de uma base de dados de um dos nossos clientes que utilizam o nosso sistema para controle de estoque, utilizam dele para tirar relátorios de seus produtos! </p>
+            <p>Seja bem-vindo(a) e aproveite o conteúdo!</p>
+          </div>
+          
+          </body>
+        <table id="tableClient" class="tabela">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>Unidade.Med</th>
+                    <th>Qnt.Estq.Min</th>
+                    <th>Qnt.Estq.Atual</th>
+                    <th>Classe</th>
+                </tr>
+            </thead>
+        </table>
+    </main>
+
+
+</body>
+
+</html>
